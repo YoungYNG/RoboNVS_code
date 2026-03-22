@@ -10,15 +10,14 @@
 - 🧠 **Our Approach**: We leverage large-scale robot datasets (e.g., DROID, RoboCOIN) and construct self-supervised training pairs under static camera assumptions.
 
 
+## 🎬 Demo Results
+
 <div align="center">
 
 <img src="assets/evalresults_test.png" alt="RoboNVS Demo Results" width="800">
 
 </div>
 
-  
-
-*EX-4D transforms monocular videos into camera-controllable 4D experiences with physically consistent results under extreme viewpoints.*
 
   
 
