@@ -101,25 +101,55 @@ python generate_multi_gpu.py \
 --gpu_ids 0,1,2  ## or 1,2,3,...
 ```
 
+<div style="border: 2px solid #ddd; border-radius: 10px; padding: 15px; margin-bottom: 20px;">
+<b>Demo 1</b>
 <table>
 <tr>
-<td width="45%" align="center">
-<video src="assets/demo_videos/demo01.mp4" width="100%" controls></video>
-<br><b>Input Video</b>
+<td width="30%" align="center">
+<img src="assets/demo_videos/demo01.gif" width="100%">
+<br><b>Input</b>
 </td>
 
 <td align="center">➜</td>
 
-<td width="45%" align="center">
-<video src="assets/demo_videos/demo01_recon.mp4" width="100%" controls></video>
+<td width="30%" align="center">
+<img src="assets/demo_videos/demo01_recon.gif" width="100%">
 <br><b>Reconstruction</b>
 </td>
 
 <td align="center">➜</td>
 
-<td width="45%" align="center">
-<video src="assets/demo_videos/demo01_output.mp4" width="100%" controls></video>
-<br><b>Output Video</b>
+<td width="30%" align="center">
+<img src="assets/demo_videos/demo01_output.gif" width="100%">
+<br><b>Output</b>
 </td>
 </tr> 
 </table>
+</div>
+
+
+<div style="border: 2px solid #ddd; border-radius: 10px; padding: 15px;">
+<b>Demo 2</b>
+<table>
+<tr>
+<td width="30%" align="center">
+<img src="assets/demo_videos/demo02.gif" width="100%">
+<br><b>Input</b>
+</td>
+
+<td align="center">➜</td>
+
+<td width="30%" align="center">
+<img src="assets/demo_videos/demo02_recon.gif" width="100%">
+<br><b>Reconstruction</b>
+</td>
+
+<td align="center">➜</td>
+
+<td width="30%" align="center">
+<img src="assets/demo_videos/demo02_output.gif" width="100%">
+<br><b>Output</b>
+</td>
+</tr> 
+</table>
+</div>
