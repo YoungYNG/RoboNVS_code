@@ -1,7 +1,7 @@
 # Beyond Viewpoint Generalization:What Multi-View Demonstrations Offer and How to Synthesize Them for Robot Manipulation (RoboNVS)
 
 <p align="center">
-  <img src="assets/RoboNVS_logo.png" width="500"/>
+  <img src="assets/RoboNVS_logo.png" width="400"/>
 </p>
 
 <p align="center">
@@ -15,8 +15,8 @@
   <strong>
     Boyang Cai<sup>1,2,*,†</sup> 
     <a href="https://kolakivy.github.io">Qiwei Liang</a><sup>1,2,*</sup> 
-    <a href="https://exaggerate-maker.github.io/">Jiawei Li</a><sup>2,*</sup> 
-    <a href="https://wsh11111-d.github.io">Shihang Weng</a><sup>2,*</sup> 
+    Jiawei Li<sup>2,*</sup> 
+    Shihang Weng<sup>2,*</sup> 
     Zhaoxin Zhang<sup>2,*</sup> 
     <a href="https://www.lintao.online">Tao Lin</a><sup>3</sup> 
     <a href="https://changerc77.github.io">Xiangyu Chen</a><sup>1</sup> 
