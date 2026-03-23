@@ -99,7 +99,7 @@ conda activate robonvs
 # Install PyTorch (2.x recommended)
 pip install torch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 --index-url https://download.pytorch.org/whl/cu124
 # Install Nvdiffrast
-pip install git+https://github.com/NVlabs/nvdiffrast.git
+pip install git+https://github.com/NVlabs/nvdiffrast.git --no-build-isolation
 # Install dependencies
 pip install -e .
 pip install --no-build-isolation git+https://github.com/nerfstudio-project/gsplat.git@0b4dddf04cb687367602c01196913cde6a743d70 # for gaussian head
@@ -128,8 +128,8 @@ CUDAHOSTCXX=/usr/bin/g++ \
 
 ## Reconstruction
 python recon.py --input_video demo_inputs/demo01.mp4 --output_dir ./output \
---view_type left \
---angle 20 \
+--view_type right \
+--angle 10 \
 --save_mesh
 ```
 #### 2. RoboNVS Generation (48GB VRAM required)

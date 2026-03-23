@@ -339,7 +339,7 @@ def main():
     parser.add_argument('--seed', type=int, default=0, help='Random seed')
     parser.add_argument('--num_inference_steps', type=int, default=25, help='Number of inference steps')
     # Model paths
-    parser.add_argument('--ex4d_path', type=str, default='models/RoboNVS/RoboNVS_lora16.ckpt', help='Path to LoRA checkpoint for RoboNVS')
+    parser.add_argument('--ex4d_path', type=str, default='models/RoboNVS/RoboNVS_lora16.pt', help='Path to LoRA checkpoint for RoboNVS')
     parser.add_argument('--text_encoder_path', type=str,
                        default='models/Wan-AI/Wan2.1-I2V-14B-480P/models_t5_umt5-xxl-enc-bf16.pth')
     parser.add_argument('--vae_path', type=str,
