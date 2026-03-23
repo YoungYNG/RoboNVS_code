@@ -1,7 +1,7 @@
 # Beyond Viewpoint Generalization:What Multi-View Demonstrations Offer and How to Synthesize Them for Robot Manipulation (RoboNVS)
 
 <p align="center">
-  <img src="assets/RoboNVS_logo.png" width="200"/>
+  <img src="assets/RoboNVS_logo.png" width="500"/>
 </p>
 
 <p align="center">
@@ -11,23 +11,22 @@
 </p>
 
 
-<p align="center">
+<p align="center" style="font-size: 18px; line-height: 1.8;">
   <strong>
-  Boyang Cai<sup>1,2,*,†</sup> &nbsp;
-  <a href="https://kolakivy.github.io">Qiwei Liang</a><sup>1,2,*</sup> &nbsp;
-  <a href="https://exaggerate-maker.github.io/">Jiawei Li</a><sup>2,*</sup> &nbsp;
-  <a href="https://wsh11111-d.github.io">Shihang Weng</a><sup>2,*</sup> &nbsp;
-  Zhaoxin Zhang<sup>2,*</sup><br>
-
-  <a href="https://www.lintao.online">Tao Lin</a><sup>3</sup> &nbsp;
-  <a href="https://changerc77.github.io">Xiangyu Chen</a><sup>1</sup> &nbsp;
-  Wenjie Zhang<sup>1</sup> &nbsp;
-  Jiaqi Mao<sup>4</sup> &nbsp;
-  <a href="https://wesleyxu224.github.io">Weisheng Xu</a><sup>1</sup> &nbsp;
-  Bin Yang<sup>1</sup> &nbsp;
-  Jiaming Liang<sup>1,2</sup> &nbsp;
-  <a href="https://junhaocai27.github.io">Junhao Cai</a><sup>2</sup> &nbsp;
-  Renjing Xu<sup>1,‡</sup>
+    Boyang Cai<sup>1,2,*,†</sup> 
+    <a href="https://kolakivy.github.io">Qiwei Liang</a><sup>1,2,*</sup> 
+    <a href="https://exaggerate-maker.github.io/">Jiawei Li</a><sup>2,*</sup> 
+    <a href="https://wsh11111-d.github.io">Shihang Weng</a><sup>2,*</sup> 
+    Zhaoxin Zhang<sup>2,*</sup> 
+    <a href="https://www.lintao.online">Tao Lin</a><sup>3</sup> 
+    <a href="https://changerc77.github.io">Xiangyu Chen</a><sup>1</sup> 
+    Wenjie Zhang<sup>1</sup> 
+    Jiaqi Mao<sup>4</sup> 
+    <a href="https://wesleyxu224.github.io">Weisheng Xu</a><sup>1</sup> 
+    Bin Yang<sup>1</sup> 
+    Jiaming Liang<sup>1,2</sup> 
+    <a href="https://junhaocai27.github.io">Junhao Cai</a><sup>2</sup> 
+    Renjing Xu<sup>1,‡</sup>
   </strong>
 </p>
 <p align="center">
@@ -110,7 +109,7 @@ pip install --no-build-isolation git+https://github.com/nerfstudio-project/gspla
 ```bash
 huggingface-cli download Wan-AI/Wan2.1-I2V-14B-480P --local-dir ./models/Wan-AI
 huggingface-cli download youngszu/RoboNVS_14B --local-dir ./models/RoboNVS
-huggingface-cli download depth-anything/DA3NESTED-GIANT-LARGE-1.1 ./Depth-Anything-3/models/da3_gaint_nest_1.1
+huggingface-cli download depth-anything/DA3NESTED-GIANT-LARGE-1.1 --local-dir ./Depth-Anything-3/models/da3_gaint_nest_1.1
 ```
 
 
