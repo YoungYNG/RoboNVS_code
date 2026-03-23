@@ -1,7 +1,7 @@
 # Beyond Viewpoint Generalization:What Multi-View Demonstrations Offer and How to Synthesize Them for Robot Manipulation (RoboNVS)
 
 <p align="center">
-  <img src="assets/RoboNVS_logo.png" width="300"/>
+  <img src="assets/RoboNVS_logo.png" width="200"/>
 </p>
 
 <p align="center">
