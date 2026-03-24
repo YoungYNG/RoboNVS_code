@@ -85,10 +85,26 @@ compatibility_overrides = {
     "pillow-heif": "pillow-heif",
 }
 
+diffsynth_requirements = [
+    "diffusers==0.30.3",
+    "einops",
+    "ftfy",
+    "imageio",
+    "peft",
+    "safetensors",
+    "sentencepiece",
+    "tqdm",
+    "transformers",
+    "trimesh",
+    "modelscope",
+    "controlnet-aux",
+]
+
 base_requirements = merge_requirements(
     root_requirements,
     da3_requirements,
     da3_optional.get("app", []),
+    diffsynth_requirements,
     overrides=compatibility_overrides,
 )
 
