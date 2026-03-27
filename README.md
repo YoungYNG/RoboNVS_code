@@ -54,7 +54,7 @@
 
 ## ✅ To-Do
 - [ ] Release our LoRA fine-tuning training code for Wan2.1-14B model  
-- [ ] Release RoboNVS training pipeline based on Wan2.2-5B
+- [ ] Release RoboNVS model trained on Wan2.2-5B
 
 
 ## ✨ Key Points
