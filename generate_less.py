@@ -230,14 +230,7 @@ def main():
     pipe.camera_encoder.eval()
     
     # Set prompts
-    # prompt = "4K ultra HD, surround motion, realistic tone, panoramic shot, wide-angle view, cinematic quality"
-    # prompt = "Inpaint a high quality robot manipulation scene with a realistic robot arm, smooth motion, realistic lighting, and detailed texture. The input is an image with holes from masking; fill in the missing parts naturally and coherently to complete the scene."
     prompt = "Inpaint a high quality robot manipulation scene with a realistic robot arm, smooth motion, realistic lighting, and detailed texture.Fill in the missing parts naturally and coherently to complete the scene."
-    # prompt = "Inpaint a high quality robot manipulation scene with a realistic robot arm, smooth motion, realistic lighting, and detailed texture."
-    
-    # prompt = "4K ultra HD, photorealistic robot manipulation video, single robotic arm with clearly defined gripper, sharp and crisp gripper edges, clear gripper-object contact without blur, high-frequency mechanical details preserved, accurate joint articulation and kinematics, physically plausible grasping and interaction, no motion blur on the gripper, smooth temporal coherence without ghosting, stable fixed camera, realistic lighting and shadows, seamless and natural video inpainting, consistent background and object geometry"
-    
-    # negative_prompt = "Bright tones, overexposed, static, blurred details, subtitles, style, works, paintings, images, static, overall gray, worst quality, low quality, JPEG compression residue, ugly, incomplete, extra fingers, poorly drawn hands, poorly drawn faces, deformed, disfigured, misshapen limbs, fused fingers, still picture, messy background, three legs, many people in the background, walking backwards"
     # negative_prompt = "None"
     negative_prompt = "motion blur, ghosting, double exposure, temporal smearing, frame averaging, blurred gripper, soft edges, fuzzy boundaries, low frequency detail, loss of detail, floating gripper, unclear contact, deformed robot, extra grippers, duplicated arms, cartoon, anime, illustration, CGI look, low quality, worst quality, JPEG artifacts, camera shake, unstable camera, subtitles, text, watermark, logo"
     
